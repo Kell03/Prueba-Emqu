@@ -1,0 +1,127 @@
+body {
+
+	background-color #f5f6fa
+    margin 0px;
+    font-size 16px;
+    font-family: arial;
+}
+
+
+.navbar{
+
+	
+	border-bottom 1px solid white;
+	
+	li.nav-item{
+		
+
+		
+		a.nav-link{
+          
+                    border  1px solid white;
+                    border-radius 10px;
+                    color black;
+                    font-size 16px;
+                    font-weight ;
+                    margin-right 4px;
+                    padding 5px 16px !important;
+	
+       }
+       
+    }
+}
+
+
+
+    .page{
+            
+        padding-bottom 16px;
+        padding-top 16px;
+        background-color ;
+        
+        
+
+        }
+        
+        .wrapper{
+
+        min-height 100vh;
+        overflow hidden;
+        background-color ;
+        
+     }
+      
+      .mtop16{
+        margin-top 16px
+        
+        
+       }
+
+       .inside{
+        
+        padding 16px;
+        background-color white;
+
+        }  
+        
+       .header{
+            border-bottom 2px solid #43c7e7;
+            
+        }
+        .header-inicio{
+
+           border-bottom 1px solid #DDDEDE;
+           background-color white;
+           
+
+
+
+
+
+        }
+        
+        .panel-inicio{
+
+            border-bottom  2px solid #43c7e7;
+            
+        }
+        
+        .title{
+
+            padding: 10px 0px 10px 10px;
+            font-family: "Trebuchet MS", Verdana, sans-serif;
+            text-align center;
+            
+        }
+        
+        .inside-inicio{
+
+        padding: 15px 10px 5px 15px;
+        background-color white;
+        }
+        
+        .inside-inicio p{
+
+            font-size: 16px;
+            
+        }
+        
+        .btn-encuesta{
+            
+            text-decoration none;
+            background-color:#8749ae;
+            color white;
+            padding 12px;
+            border-radius 12px;
+            font-weight 400;
+            font-family arial;
+            
+        }
+       
+       .btn-encuesta:hover{
+
+            box-shadow: 0px 0px 5px 1px gray;
+            background-color:#8749ae;
+            color white;
+            
+        }
