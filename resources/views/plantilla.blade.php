@@ -68,7 +68,8 @@
 
 
       </li>
-
+@if(Auth::guest())
+@else
 
       <li class="nav-item" style="margin-left:20px;"> 
       
@@ -76,9 +77,7 @@
 
 
       </li>
-@if(Auth::guest())
-@else
-@if(Auth::user()->role == '1')
+
 <li class="nav-item dropdown">
           <a class="nav-link dropdown-toggle" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Configuracion  
@@ -91,7 +90,6 @@
 
 
 
-@endif
 @endif
 
     </ul>

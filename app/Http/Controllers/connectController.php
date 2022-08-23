@@ -75,7 +75,7 @@ class connectController extends Controller
        $validator = Validator::make($request->all() ,$rules);
    if($validator->fails()):
 
-   return back()->withErrors($validator)->with('message', 'Se ha producido un error')->with('typealert', 'danger');
+   return back()->withErrors($validator);
 
    else:
    if(Auth::attempt(['email' => $request->get('email'), 'password' => $request->get('password')])):
@@ -84,7 +84,7 @@ class connectController extends Controller
     return redirect('/');
 
     else:
-        return back()->withErrors($validator)->with('message', 'Datos incorrectos!')->with('typealert', 'danger');
+        return back()->withErrors($validator);
 
     endif;
    endif;
